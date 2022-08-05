@@ -1,0 +1,22 @@
+package ru.glinskiy.gazprombank.config;
+
+import io.swagger.v3.oas.models.OpenAPI;
+import io.swagger.v3.oas.models.info.Info;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class SwaggerConfig {
+
+    @Bean
+    public OpenAPI customOpenAPI() {
+        return new OpenAPI()
+                .info(
+                        new Info()
+                                .title("List of products Api")
+                                .description("API методов для проекта List of products")
+                                .version("1.0.0")
+                );
+
+    }
+}
