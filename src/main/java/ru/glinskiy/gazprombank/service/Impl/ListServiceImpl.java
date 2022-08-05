@@ -7,13 +7,11 @@ import ru.glinskiy.gazprombank.dao.entity.List;
 import ru.glinskiy.gazprombank.dao.entity.Product;
 import ru.glinskiy.gazprombank.dao.model.ListRequestDto;
 import ru.glinskiy.gazprombank.dao.model.ListResponseDto;
-import ru.glinskiy.gazprombank.dao.model.ProductResponseDto;
 import ru.glinskiy.gazprombank.mapper.ListRequestMapper;
 import ru.glinskiy.gazprombank.mapper.ListResponseMapper;
 import ru.glinskiy.gazprombank.repository.ListRepository;
 import ru.glinskiy.gazprombank.repository.ProductRepository;
 import ru.glinskiy.gazprombank.service.ListService;
-import ru.glinskiy.gazprombank.service.ProductService;
 
 import javax.persistence.EntityNotFoundException;
 import java.util.Set;

@@ -8,10 +8,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 import ru.glinskiy.gazprombank.dao.model.ListRequestDto;
 import ru.glinskiy.gazprombank.dao.model.ListResponseDto;
-import ru.glinskiy.gazprombank.dao.model.ProductRequestDto;
-import ru.glinskiy.gazprombank.dao.model.ProductResponseDto;
 import ru.glinskiy.gazprombank.service.ListService;
-import ru.glinskiy.gazprombank.service.ProductService;
 
 import java.util.List;
 
